@@ -1,7 +1,7 @@
 //////////////////////////////////  START OF CODE FOR lib/splash_page.dart
 
 import 'package:flutter/material.dart';
-import 'languages.dart';
+import 'logos_page.dart';
 // ------------------------------------------------------------------------
 
 class SplashPage extends StatefulWidget {
@@ -26,7 +26,7 @@ class _SplashPageState extends State<SplashPage> {
       // This now navigates to the LanguagePage defined in 'languages.dart'
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const LanguagePage()),
+        MaterialPageRoute(builder: (context) => const LogosPage()),
       );
     }
   }
